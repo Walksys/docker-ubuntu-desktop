@@ -18,9 +18,9 @@ Once the container status is active and running, you can connect to your interac
 
 | Protocol | Connection URL | Security Level |
 
-| **HTTP** | [http://localhost:6080/vnc.html](https://www.google.com/search?q=http://localhost:6080/vnc.html) | Standard / Local Development |
+| **HTTP** | [http://localhost:6080/vnc.html](http://localhost:6080/vnc.html) | Standard / Local Development |
 
-| **HTTPS** | [https://localhost:6080/vnc.html](https://www.google.com/search?q=https://localhost:6080/vnc.html) | Secure / Tunneling Proxies |
+| **HTTPS** | [https://localhost:6080/vnc.html](https://localhost:6080/vnc.html) | Secure / Tunneling Proxies |
 
 
 
@@ -37,7 +37,7 @@ This image is publicly hosted and optimized for automated deployment workflows.
 
 * 🌐 **Official Registry Page:** [DockerHub Repository](https://hub.docker.com/r/walksysdev/docker-ubuntu-desktop)
 
-* 🐙 **Source Code Platform:** [GitHub Repository](https://www.google.com/search?q=https://github.com/walksys/docker-ubuntu-desktop)
+* 🐙 **Source Code Platform:** [GitHub Repository](https://github.com/walksys/docker-ubuntu-desktop)
 
 
 
@@ -66,4 +66,4 @@ docker pull walksysdev/docker-ubuntu-desktop:latest
 
 
 
-*Maintained by [@walksysdev](https://www.google.com/search?q=https://hub.docker.com/r/walksysdev).*
+*Maintained by [@walksysdev](https://hub.docker.com/r/walksysdev).*
