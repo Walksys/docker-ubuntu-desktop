@@ -1,42 +1,22 @@
 ## 🚀 Quick Start & Usage
 
-
-
 To launch the desktop container with optimal settings, just run the following command in your terminal:
 
 
 
 ```bash
-
-docker run -it \
-
-  --name ubuntu-desktop-vnc \
-
-  --platform=linux/amd64 \
-
-  -p 6080:6080 \
-
-  --shm-size=512m \
-
-  walksysdev/docker-ubuntu-desktop
-
-
-
+docker run -it --platform=linux/amd64 -p 6080:6080 walksysdev/docker-ubuntu-desktop
 ```
 
 
 
 ## 🌐 How to Access
 
-
-
 Once the container status is active and running, you can connect to your interactive GUI desktop via your web browser using one of the following URLs:
 
 
 
 | Protocol | Connection URL | Security Level |
-
-| --- | --- | --- |
 
 | **HTTP** | [http://localhost:6080/vnc.html](https://www.google.com/search?q=http://localhost:6080/vnc.html) | Standard / Local Development |
 
@@ -51,8 +31,6 @@ Once the container status is active and running, you can connect to your interac
 
 ## 📦 Distribution Links & Pull Command
 
-
-
 This image is publicly hosted and optimized for automated deployment workflows.
 
 
@@ -65,26 +43,18 @@ This image is publicly hosted and optimized for automated deployment workflows.
 
 ### 📥 Manual Pull Command
 
-
-
 If you wish to download the image layers explicitly before execution, run:
 
 
 
 ```bash
-
 docker pull walksysdev/docker-ubuntu-desktop:latest
-
-
-
 ```
 
 
 
 
 ## 🛠️ Key Technical Specifications
-
-
 
 * **Base Architecture:** `linux/amd64` (Compatible with standard x86_64 cloud infrastructure)
 
@@ -93,10 +63,6 @@ docker pull walksysdev/docker-ubuntu-desktop:latest
 * **Web UI Layer:** HTML5 noVNC Client running natively inside browser runtimes
 
 * **Default Exposed Port:** `6080` (Internal VNC TCP traffic encapsulated over HTTP WebSocket)
-
-
-
----
 
 
 
